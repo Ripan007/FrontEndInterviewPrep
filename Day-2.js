@@ -1,6 +1,5 @@
 1.enumerate the diff b/w java and javaScript ?
 ans:
-#
 - JavaScript is a lightweight programming language(“scripting language”) and is used to make web pages interactive.
 - It can insert dynamic text into HTML. 
 -JavaScript is also known as the browser’s language.

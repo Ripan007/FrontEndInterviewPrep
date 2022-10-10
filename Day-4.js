@@ -1,6 +1,6 @@
-# JS INTERVIEW QUESTION:
+ JS INTERVIEW QUESTION:
 
-## Explain “this” keyword
+ Explain “this” keyword
 
 - The value of "this" keyword gets decided at the time of execution, you dont assign any value to "this" like any other usual variable.
 
@@ -16,7 +16,7 @@
 
          John David is 25 years old
 
-## Explain Local Scope, Block Scope, Functional Scope and Scope Chain in javascript
+Explain Local Scope, Block Scope, Functional Scope and Scope Chain in javascript
 
      The value of "this" keyword gets decided at the time of execution, you dont assign any value to "this" like any other usual variable.
 
@@ -32,12 +32,12 @@
 
          John David is 25 years old
 
-## Explain passed by value and passed by reference</h2>
+ Explain passed by value and passed by reference</h2>
 
      In case of "pass by value", when you pass any variable to the function and inside this function when you change or modify the value of this variable then it will not change the value of the variable outside the function. Because in pass by value case, inside function new variable gets created which is pointing to different memory location.
-        <br>
+        
         In most cases, the value of "this" keyword gets determined when the function is called in runtime.
-        <pre>
+        
             let num = 10
 
             function double (n){
@@ -49,13 +49,13 @@
 
             console.log(num)
 
-            <span>Output : 20 10</span>
-        </pre>
-    </h4>
-    <h4>In case of "pass by value", when you pass any variable to the function and inside this function when you change or modify the value of this variable then it will not change the value of the variable outside the function. Because in pass by value case, inside function new variable gets created which is pointing to different memory location.
-        <br>
+            Output : 20 10
+        
+    
+    In case of "pass by value", when you pass any variable to the function and inside this function when you change or modify the value of this variable then it will not change the value of the variable outside the function. Because in pass by value case, inside function new variable gets created which is pointing to different memory location.
+        
         In most cases, the value of "this" keyword gets determined when the function is called in runtime.
-        <pre>
+    
             let num = 10
 
             function double (n){
@@ -67,7 +67,7 @@
 
             console.log(num)
 
-            <span>Output : 20 10</span>
+            Output : 20 10
         </pre>
     </h4>
 
