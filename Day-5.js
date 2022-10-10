@@ -25,4 +25,6 @@
 
 // console.log(sum);
 
-link : https://www.fullstacktutorials.com/interviews/javascript-coding-questions-answers-6.html
+link : https://www.fullstacktutorials.com/interviews/javascript-coding-questions-answers-6.html:thinking: 
+
+
