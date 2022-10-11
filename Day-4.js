@@ -68,8 +68,7 @@ Explain Local Scope, Block Scope, Functional Scope and Scope Chain in javascript
             console.log(num)
 
             Output : 20 10
-        </pre>
-    </h4>
+     
 
 //call, apply, bind in JS are the different ways of executing the function . This specific function can take different objects while execution, the properties of the objects in this function will be accessed by using "this" keyword
 
