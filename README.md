@@ -1,7 +1,7 @@
 # _Description of the above content:_
 
 | Days   | content                  |
-| ------ | ------------------------ | --- |
+| ------ | ------------------------ |
 | Day-1  | interview questions      |
 | Day-2  | interview questions      |
 | Day-3  | interview questions      |
@@ -14,4 +14,4 @@
 | Day-10 | coding questions         |
 | Day-11 | coding questions         |
 | Day-12 | interview                |
-| Day-13 | synchronous, Asychronous |     |
+| Day-13 | synchronous, Asychronous |
