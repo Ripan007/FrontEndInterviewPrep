@@ -1,66 +1,108 @@
-// select elements  // 
+// synchronous //
 
-// getElementsByClassName();
-// getElementsByTagName();
-// getElementById();
-// querySelector();
-// querySelectorAll();
-
-// style the element //
-
-// const list = document.querySelectorAll("li");
-// for (let i = 0; i < list.length; i++) {
-//     list[i].style.color = "blue";
+// function a() {
+//     console.log('function a start');
+// }
+// function b() {
+//     console.log("function b start");
+//     a();
+//     console.log("function b end");
 // }
 
+// b();
 
-// creating elements //
+// Asynchronous //
 
-// const task = document.querySelector("ul");
-// const list = document.createElement("li");
-// adding elements
-// task.append(list);
-// task.innerHTML = "list";
-// task.style.color = "blue";
+// function a() {
+//     setTimeout(() => {
+//         console.log("function a first");
+//     }, 300)
+// }
 
-// modifying the text //
+// function b() {
+//     console.log("function b first");
+//     a();
+//     console.log("function b last");
+// }
 
-// console.log(task.innerHTML);
-// console.log(task.innerText);
-// console.log(task.textContent);
-// task.innerHTML = "<em>content</em>";
+// b();
+
+// callback //
+// function a() {
+//     setTimeout(() => {
+//         console.log('function a');
+//     }, 3000)
+
+// }
+
+// function b() {
+//     console.log('function b');
+// }
+
+// a()
+// b()
+
+// modify //
+
+// function a() {
+//     setTimeout(() => {
+//         console.log('function a');
+//         b()
+//     }, 3000)
+
+// }
+
+// function b() {
+//     console.log('function b');
+// }
+
+// a()
 
 
-// const heading = document.querySelector("#heading");
-// heading.style.color = "blue";
+// callback example //
 
-// modifying attributes and  classes 
+// function personOne(friend, callFriend) {
+//     setTimeout(() => {
+//         console.log(`hi bro i am busy right know , i have a  call with my college ${friend} right now, i will call you later`);
+//         callFriend();
+//     }, 3000)
 
+// }
 
-// const head = document.querySelector("#heading");
-// head.style.color = "green";
+// function personTwo() {
+//     console.log(` how are you bro , that time i am busy thats why couldn't able to pick your call`);
+// }
 
-// const ul = document.querySelector("ul");
-// const li = document.createElement("li");
+// personOne('sujit', personTwo);
 
-// ul.append(li);
-// li.innerText = "first ";
+// callback hell //
 
-// li.setAttribute('id', 'heading');
-// li.removeAttribute("id");
+//task
+// after 2s  student rollno
+// after 2s name age age
+// after 2s gender
 
+// const getRollNo = () => {
+//     setTimeout(() => {
+//         console.log('getting roolNo');
+//         let rol_no = [1, 2, 3, 4, 5];
+//         console.log(rol_no);
+//         setTimeout((rollNo) => {
+//             const bioData = {
+//                 name: "raj",
+//                 age: 23
+//             }
+//             console.log(`my rollNo is ${rollNo}, i am ${bioData.name} and i am ${bioData.age} year old`);
+//             setTimeout((name) => {
+//                 bioData.gender = "male";
+//                 console.log(`my rollNo is ${rollNo}, i am ${bioData.name} and i am ${bioData.age} year old and my gender is ${bioData.gender}`);
+//             }, 2000, bioData.name)
 
-// const head = document.querySelector("h1");
-// console.log(head);
+//         }, 2000, rol_no[1])
 
-// head.classList.add('heading');
+//     }, 2000)
+// }
+// getRollNo()
 
-
-
-
-
-
-
-
-
+// promises //    
 
