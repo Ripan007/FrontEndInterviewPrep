@@ -32,9 +32,9 @@
 // let name = {
 //     first: "raj",
 //     last: "mohan",
-    // fullName: function () {
-    //     console.log(this.first + " " + this.last);
-    // }
+// fullName: function () {
+//     console.log(this.first + " " + this.last);
+// }
 // }
 
 // let fullName = function () {
@@ -65,6 +65,29 @@
 // printName();
 // bind method cause issue with apply method
 // fullName.apply(name2, [26, "dance"]);
+
+// polyfill for bind method
+// polyfill is sort of browser fallBack
+// just image your browser doesn't have a  bind function and you have to write your own bind function
+
+
+// own implementation of bind method
+
+// generic way of writing bind method
+// let name = {
+//     first: "surya",
+//     last: "roy",
+
+// }
+// let fullName = function () {
+//     console.log(this.first + " " + this.last);
+// }
+// let myName = fullName.bind(name);
+// myName();
+
+// code snippets  //
+
+// find non repeated numbers in an Array using JavaScript ?
 
 
 
